@@ -1,4 +1,4 @@
-import { User } from "../interfaces/user";
+import { User } from '../interfaces/user';
 
 export class MyDatabseClassic {
   private static _istance: MyDatabseClassic | null = null;
@@ -21,7 +21,7 @@ export class MyDatabseClassic {
     this.users.splice(index, 1);
   }
 
-  show():void {
+  show(): void {
     for (const user of this.users) {
       console.log(user);
     }
